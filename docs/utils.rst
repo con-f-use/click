@@ -412,6 +412,6 @@ iterating directly over it::
 A progress bar will not display, if the progress is essentially instant,
 i.e. the whole process completes within a predefined interval (default: 0.5s).
 You can control that interval by passing its value in seconds via the keyword 
-argument ``show_min_t``. For instance, `click.progressbar(..., show_min_t=-1)`
-will always display a progress bar, `show_min_t=5.5` only after 5.5 seconds,
+argument ``show_min_t``. For instance, ``click.progressbar(..., show_min_t=-1)``
+will always display a progress bar, ``show_min_t=5.5`` only after 5.5 seconds,
 and only if the process takes longer that that.
